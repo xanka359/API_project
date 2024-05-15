@@ -5,8 +5,7 @@ from allure_commons.types import AttachmentType
 import allure
 import requests
 
-# url = "https://petstore.swagger.io/v2/pet/"
-# headers = {"content-type": "application/json"}
+
 data_post = {
     "id": 199,
     "category": {
