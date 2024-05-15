@@ -2,7 +2,7 @@
 
 > <a target="_blank" href="https://petstore.swagger.io/#/">Ссылка на сайт</a>
 
-<img src="resources/API_petstore.jpg" width="1000" height="600"/>
+<img src="resources/images/API_petstore.jpg" width="1000" height="600"/>
 
 *** 
 
