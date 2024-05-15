@@ -7,13 +7,13 @@ from utils.helpers import api_put_method
 from utils.util import load_schema
 
 
-def test_validate_put_method():
+def test_validate_put_method(api_url, headers):
     '''GIVEN'''
     name = "bobr kurva"
 
     '''WHEN'''
     with allure.step('Выполнить метод редактирования данных существующего питомца'):
-        response = api_put_method()
+        response = api_put_method(api_url, headers)
         response_body = response.json()
     with allure.step('Поместить эталонную схему в переменную'):
         schema = load_schema("post_method.json")

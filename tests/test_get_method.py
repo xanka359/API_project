@@ -7,14 +7,14 @@ from utils.helpers import api_get_method
 from utils.util import load_schema
 
 
-def test_validate_get_method():
+def test_validate_get_method(api_url, headers):
     '''GIVEN'''
     name = "bob"
-    api_url = '1399'
+    for_api_url = '1399'
 
     '''WHEN'''
     with allure.step('Выполнить метод получения данных питомца по id'):
-        response = api_get_method(api_url)
+        response = api_get_method(api_url, for_api_url, headers)
         response_body = response.json()
     with allure.step('Поместить эталонную схему в переменную'):
         schema = load_schema("post_method.json")
