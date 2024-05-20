@@ -3,7 +3,7 @@ import json
 import allure
 from jsonschema import validate
 
-from utils.helpers import api_get_method
+from utils.helpers import api_request
 from utils.util import load_schema
 
 
@@ -14,7 +14,7 @@ def test_validate_get_method(api_url, headers):
 
     '''WHEN'''
     with allure.step('Выполнить метод получения данных питомца по id'):
-        response = api_get_method(api_url, for_api_url, headers)
+        response = api_request(api_url=api_url, for_api_url=for_api_url, headers=headers)
         response_body = response.json()
     with allure.step('Поместить эталонную схему в переменную'):
         schema = load_schema("post_method.json")
