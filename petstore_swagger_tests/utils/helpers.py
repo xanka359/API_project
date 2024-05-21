@@ -43,7 +43,7 @@ data_put = {
 }
 
 
-def api_request(api_url, headers, method='put', for_api_url=None):
+def api_request(api_url, headers, method='post', for_api_url=None):
     with allure.step(f'API {method} method'):
 
         if method == 'get':

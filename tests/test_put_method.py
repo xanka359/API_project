@@ -3,8 +3,8 @@ import json
 import allure
 from jsonschema import validate
 
-from utils.helpers import api_request
-from utils.util import load_schema
+from petstore_swagger_tests.utils.helpers import api_request
+from petstore_swagger_tests.utils.util import load_schema
 
 
 def test_validate_put_method(api_url, headers):

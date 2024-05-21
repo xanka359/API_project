@@ -2,13 +2,13 @@
 
 > <a target="_blank" href="https://petstore.swagger.io/#/">Ссылка на сайт</a>
 
-<img src="resources/images/API_petstore.jpg" width="1000" height="600"/>
+<img src="petstore_swagger_tests/resources/images/API_petstore.jpg" width="1000" height="600"/>
 
 *** 
 
 ### Проект реализован на стеке
 
-<img src="resources/pictures/python-original.svg" width="60" height="60"/> <img src="resources/pictures/pytest-original-wordmark.svg" width="65" height="60"/> <img src="resources/pictures/pycharm-original.svg" width="60" height="60"/> <img src="resources/pictures/jira-original-wordmark.svg" width="60" height="60"/> <img src="resources/pictures/jenkins-original.svg" width="60" height="60"/> <img src="resources/pictures/allure_testops.png" width="50" height="55"/> <img src="resources/pictures/allure_report.png" width="50" height="55"/> 
+<img src="petstore_swagger_tests/resources/pictures/python-original.svg" width="60" height="60"/> <img src="petstore_swagger_tests/resources/pictures/pytest-original-wordmark.svg" width="65" height="60"/> <img src="petstore_swagger_tests/resources/pictures/pycharm-original.svg" width="60" height="60"/> <img src="petstore_swagger_tests/resources/pictures/jira-original-wordmark.svg" width="60" height="60"/> <img src="petstore_swagger_tests/resources/pictures/jenkins-original.svg" width="60" height="60"/> <img src="petstore_swagger_tests/resources/pictures/allure_testops.png" width="50" height="55"/> <img src="petstore_swagger_tests/resources/pictures/allure_report.png" width="50" height="55"/> 
 
 ***  
 
@@ -56,14 +56,16 @@ allure serve build/allure-results
 ____
 
 1. **Allure testops** 
-   <img src="resources/images/allure_testops.jpg" width="1000" height="450"/>
+
+   <img src="petstore_swagger_tests/resources/images/allure_testops.jpg" width="1000" height="450"/>
 
 ___  
 
 2. **Jira**  
-   <img src="resources/images/api.jpg" width="850" height="450"/>
+   <img src="petstore_swagger_tests/resources/images/api.jpg" width="850" height="450"/>
 
 ___  
 
 3. **Allure reports** 
-   <img src="resources/images/allure_reports.jpg" width="850" height="400"/>
+
+   <img src="petstore_swagger_tests/resources/images/allure_reports.jpg" width="850" height="400"/>
